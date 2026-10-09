@@ -1,0 +1,14 @@
+# Python virtual environment
+.venv/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+
+# Generated measurement data
+motor_data.csv
+
+# Local environment files
+.env
+.env.*
+!.env.example
