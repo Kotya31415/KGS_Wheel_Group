@@ -66,7 +66,7 @@ void loop() {
   unsigned long elapsedTime = currentTime - startTime; 
 
   if (elapsedTime < RUN_DURATION_MS) {
-    float target_rpm = 30.0; 
+    float target_rpm = -30.0; 
     int32_t target_raw = (int32_t)(target_rpm / VEL_UNIT);
     dxl.setGoalVelocity(DXL_ID, target_raw);
 
