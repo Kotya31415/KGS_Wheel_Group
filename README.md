@@ -2,7 +2,8 @@
 
 ## 概要
 
-OpenRB-150 で Dynamixel モーターを駆動し、PC 側の Python スクリプトで速度・位置データを取得して `motor_data.csv` に保存します。
+OpenRB-150 で Dynamixel モーターを駆動し、PC 側の Python スクリプトで速度・位置データを取得して `motor_data.csv` に保存します。\
+'motor_data.csv'は上書きされるので注意が必要です。
 
 ## 必要な依存関係
 
