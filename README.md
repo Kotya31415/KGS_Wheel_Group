@@ -2,6 +2,8 @@
 
 ## 概要
 
+<img width="1780" height="193" alt="mermaid-1791894329080" src="https://github.com/user-attachments/assets/4c05f458-d6b2-47a5-85df-21db8f0c247b" />
+
 OpenRB-150 で Dynamixel モーターを駆動し、PC 側の Python スクリプトで速度・位置データを取得して `motor_data.csv` に保存します。
 
 ## 必要な依存関係
