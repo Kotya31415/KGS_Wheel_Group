@@ -3,7 +3,10 @@ import csv
 import time
 
 # 設定
+# Linux
 COM_PORT = '/dev/ttyACM0'  # 環境のポート名に変更してください
+# Windows
+# COM_PORT = 'COM4'
 BAUD_RATE = 115200
 CSV_FILE = 'motor_data.csv'
 
