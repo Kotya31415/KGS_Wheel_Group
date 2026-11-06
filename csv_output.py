@@ -3,7 +3,7 @@ import csv
 import time
 
 # 設定
-COM_PORT = '/dev/ttyACM0'  # あなたの環境のポート名に変更してください
+COM_PORT = '/dev/ttyACM0'  # 環境のポート名に変更してください
 BAUD_RATE = 115200
 CSV_FILE = 'motor_data.csv'
 
