@@ -1,4 +1,3 @@
-
 import csv
 import math
 import glob
@@ -48,7 +47,7 @@ with open(filename, "r", encoding="utf-8-sig", newline="") as f:
 denominator = 6 * math.pi * abs(last_position) / 360
 
 value = float(input("計算する数値を入力してください: "))
-result = value / denominator
+result = 1 - (value / denominator)
 
 # 結果表示
 print(f"\n読み込みファイル: {filename}")
